@@ -9014,3 +9014,8 @@ li { list-style: none; display: inline-block; line-height: 1.6; font-size: 0.9em
 .texto_fondo_amarillo {
   color:black ;
 }
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+  -ms-touch-action: auto;
+      touch-action: auto;
+}
